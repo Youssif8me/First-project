@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 4000px;
+    height: 4500px;
 }
 
 .header {
@@ -633,7 +633,6 @@ p {
     font-size: 40px;
 }
 
-/* ------------------------------------------------ */
 .sec7container {
     width: 80%;
     margin: auto;
@@ -645,75 +644,96 @@ p {
     margin-top: 50px;
 }
 
-.sec7items {
-    float: left;
-    width: 30%;
-    background-image: radial-gradient(circle at 50% 30%, rgba(209, 209, 209, 0.04) 0%, rgba(209, 209, 209, 0.04) 50%, rgba(138, 138, 138, 0.04) 50%, rgba(138, 138, 138, 0.04) 100%), radial-gradient(circle at 9% 40%, rgba(209, 209, 209, 0.04) 0%, rgba(209, 209, 209, 0.04) 50%, rgba(71, 71, 71, 0.04) 50%, rgba(71, 71, 71, 0.04) 100%), radial-gradient(circle at 84% 81%, rgba(147, 147, 147, 0.04) 0%, rgba(147, 147, 147, 0.04) 50%, rgba(253, 253, 253, 0.04) 50%, rgba(253, 253, 253, 0.04) 100%), linear-gradient(266deg, rgb(5, 73, 170), rgb(140, 100, 243));
-    text-align: center;
-    padding: 18px 14px;
+.card {
     position: relative;
-    border-radius: 10px;
+    width: 220px;
+    height: 320px;
+    background-image: radial-gradient(circle at 79% 30%, rgba(230, 230, 230, 0.04) 0%, rgba(230, 230, 230, 0.04) 50%, rgba(12, 12, 12, 0.04) 50%, rgba(12, 12, 12, 0.04) 100%), radial-gradient(circle at 53% 89%, rgba(210, 210, 210, 0.04) 0%, rgba(210, 210, 210, 0.04) 50%, rgba(24, 24, 24, 0.04) 50%, rgba(24, 24, 24, 0.04) 100%), radial-gradient(circle at 92% 89%, rgba(17, 17, 17, 0.04) 0%, rgba(17, 17, 17, 0.04) 50%, rgba(205, 205, 205, 0.04) 50%, rgba(205, 205, 205, 0.04) 100%), radial-gradient(circle at 21% 13%, rgba(124, 124, 124, 0.04) 0%, rgba(124, 124, 124, 0.04) 50%, rgba(243, 243, 243, 0.04) 50%, rgba(243, 243, 243, 0.04) 100%), radial-gradient(circle at 77% 0%, rgba(16, 16, 16, 0.04) 0%, rgba(16, 16, 16, 0.04) 50%, rgba(130, 130, 130, 0.04) 50%, rgba(130, 130, 130, 0.04) 100%), linear-gradient(270deg, rgb(32, 8, 251), rgb(19, 19, 255));
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-.sec7item2 {
-    margin: 0px 5%;
-}
-
-.sec7div1-img1 {
-    width: 85%;
-    margin: auto;
-    position: relative;
-}
-
-.sec7div1-img1 img {
-    width: 100%;
-}
-
-.sec7icons {
+.card::before,
+.card::after {
     position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #219cb8;
+    transition: all 0.5s;
+}
+
+.card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+}
+
+.card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100% 0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    visibility: hidden;
+    border-radius: 15px;
+    transition: all 0.5s;
 }
 
-.sec7items:hover .sec7icons {
-    visibility: visible;
+.num1 {
+    float: inline-start;
 }
 
-.sec7icons a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    color: #fff;
-    background-color: rgb(101, 101, 236);
-    margin-left: auto;
+.num2 {
+    float: inline-start;
+    margin-left: 175px;
 }
 
-.sec7icons a i {
-    line-height: 40px;
+.num3 {
+    float: inline-end;
+}
+
+.num1:hover:after {
+    content: "Ui/UX Designer";
+}
+
+.num2:hover:after {
+    content: "Full stuck";
+}
+
+.num3:hover:after {
+    content: "Marketing";
+}
+
+.card img {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
 .sec7info-title {
     text-transform: capitalize;
-    color: rgb(20, 20, 20);
+    color: #ccc;
     padding: 12px 0px;
+    text-align: center;
+    margin-top: -20px;
 }
 
-.sec7info-paragraph {
+.sec7info-p {
     text-transform: uppercase;
     color: #fff;
-}
-
-.sec7items:hover .sec7info-title {
-    color: #fff;
-    z-index: 6;
-}
-
-.sec7items:hover .sec7info-paragraph {
-    color: #000000;
+    margin-top: -15px;
+    text-align: center;
 }
 
 /* sec8 */
@@ -765,7 +785,6 @@ p {
     text-align: center;
     color: #ccc;
 }
-
 
 .text3 {
     margin-bottom: 30px;
