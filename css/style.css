@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    height: 4500px
+    height: 4500px;
 }
 
 .header {
@@ -16,7 +16,8 @@ body {
     height: 50px;
     padding-right: 25px;
     margin-right: 25px;
-    z-index: 1000
+    z-index: 1000;
+    ;
 }
 
 .homeicon {
@@ -25,12 +26,12 @@ body {
     padding-top: 15px;
     padding-left: 25px;
     margin-left: 30px;
-    margin-right: 25px
+    margin-right: 25px;
 }
 
 .homeicon:hover {
     color: #ccc;
-    cursor: pointer
+    cursor: pointer;
 }
 
 [type=text] {
@@ -40,32 +41,32 @@ body {
     background-color: #fafafc;
     border-radius: 20px;
     margin-top: 10px;
-    border: 0
+    border: 0;
 }
 
 .searchicon {
     position: absolute;
     font-size: 15px;
     margin-left: 20px;
-    top: 18px
+    top: 18px;
 }
 
 .headlinks {
     list-style: none;
-    float: right
+    float: right;
 }
 
 .headlinks li {
     display: inline-block;
     margin-top: 12px;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .headlinks li a {
     position: relative;
     color: #fff;
     padding-bottom: 8px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .headlinks li a::before {
@@ -76,34 +77,34 @@ body {
     width: 0;
     bottom: 0;
     right: 0;
-    opacity: 0
+    opacity: 0;
 }
 
 .headlinks li a:hover::before {
     width: 100%;
     opacity: 1;
-    transition: .3s
+    transition: .3s;
 }
 
 .container {
-    position: relative
+    position: relative;
 }
 
 .div1 {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(https://youssif8me.github.io/First-project/image/r.jpg);
+    background-image: url(../image/q.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
 }
 
 .div2 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .68)
+    background-color: rgba(0, 0, 0, .68);
 }
 
 .maintext {
@@ -113,12 +114,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center
+    text-align: center;
 }
 
 .title2 {
     font-size: 65px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .paragraph1 {
@@ -127,7 +128,7 @@ body {
     padding: 12px 0;
     letter-spacing: 2px;
     line-height: 20px;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .btn1,
@@ -144,45 +145,46 @@ body {
     color: #fff;
     height: 2.6em;
     text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-    transition: box-shadow .15s ease, transform .15s ease
+    transition: box-shadow .15s ease, transform .15s ease;
 }
 
 .btn1:hover,
 .btn2:hover {
     box-shadow: 0 .1em .2em rgb(45 35 66 / 40%), 0 .4em .7em -.1em rgb(45 35 66 / 30%), inset 0 -.1em 0 #3c4fe0;
-    transform: translateY(-.1em)
+    transform: translateY(-.1em);
 }
 
 .btn1:active,
 .btn2:active {
     box-shadow: inset 0 .1em .6em #3c4fe0;
-    transform: translateY(0)
+    transform: translateY(0);
 }
 
 .btn2 {
     color: #fff;
     background-color: #036;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .h2 {
     text-align: center;
     padding-top: 70px;
-    font-size: 40px
+    font-size: 40px;
+    text-transform: capitalize;
 }
 
 .hr {
     width: 90px;
     border: 2px solid #2828e6;
     margin: auto;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .sec1 {
     overflow: auto;
     width: 100%;
     height: 100vh;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .sec1div1 {
@@ -195,67 +197,282 @@ body {
     border: 1px solid #646bce;
     position: relative;
     border-radius: 30px;
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, .05) 0, rgba(27, 27, 27, .05) 50%, rgba(126, 126, 126, .05) 50%, rgba(126, 126, 126, .05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, .05) 0, rgba(248, 248, 248, .05) 50%, rgba(26, 26, 26, .05) 50%, rgba(26, 26, 26, .05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, .05) 0, rgba(160, 160, 160, .05) 50%, rgba(212, 212, 212, .05) 50%, rgba(212, 212, 212, .05) 100%), linear-gradient(90deg, #234aff, #84a1ad)
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, .05) 0, rgba(27, 27, 27, .05) 50%, rgba(126, 126, 126, .05) 50%, rgba(126, 126, 126, .05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, .05) 0, rgba(248, 248, 248, .05) 50%, rgba(26, 26, 26, .05) 50%, rgba(26, 26, 26, .05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, .05) 0, rgba(160, 160, 160, .05) 50%, rgba(212, 212, 212, .05) 50%, rgba(212, 212, 212, .05) 100%), linear-gradient(90deg, #234aff, #84a1ad);
 }
 
 .iconsec1 {
     font-size: 30px;
     color: #e2e2f9;
     padding-top: 20px;
-    transition: .5s linear
+    transition: .5s linear;
 }
 
 .sec1link {
     text-decoration: none;
     display: block;
-    color: #1313ff
+    color: #1313ff;
 }
 
 .sec1h2,
 .sec1link,
 .sec1p2 {
     padding-top: 22px;
-    transition: .5s linear
+    transition: .5s linear;
 }
 
 .sec1div1:hover .sec1link {
-    color: #2008fb
+    color: #2008fb;
 }
 
 .sec1div1:hover .iconsec1 {
-    color: #3427aa
+    color: #3427aa;
 }
 
 .sec1div1:hover .sec1h2 {
-    color: #fff
+    color: #fff;
 }
 
 .sec1p2 {
-    color: #ccc
+    color: #ccc;
 }
 
 .sec1div1:hover .sec1p2 {
-    color: #000
+    color: #000;
 }
 
+/* sec1 //////////////////////////////////////////////////////////////////////////////////////////////*/
+.featured {
+    width: 100%;
+    background-color: rgb(232, 234, 248);
+    height: 110vh;
+    overflow: auto;
+}
+
+.featureddiv1 {
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.featuredlayer1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+
+.featureddiv1:hover .featuredlayer1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.featuredicon2 {
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+    padding-top: 7px;
+    text-align: center;
+    color: rgb(131, 131, 133);
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.featuredicon3 {
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+    color: rgb(131, 131, 133);
+    font-size: 20px;
+
+    border-radius: 6px;
+}
+
+.featuredicons a {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+}
+
+.h3category {
+    color: rgb(181, 181, 184);
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.featuredspan {
+    position: relative;
+    top: 20px;
+}
+
+/* ////////////////////// */
+.featureddiv2 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.featuredlayer2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.featureddiv2:hover .featuredlayer2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ////////////////// */
+.featureddiv3 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.featuredlayer3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+
+.featureddiv3:hover .featuredlayer3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* //////////////////////////////// */
+.featureddiv4 {
+    float: left;
+    margin-left: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.featuredlayer4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+
+.featureddiv4:hover .featuredlayer4 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* /////////////////// */
+.featureddiv5 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.featuredlayer5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.featureddiv5:hover .featuredlayer5 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* //////////////////////// */
+.featureddiv6 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.featuredlayer6 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+
+.featureddiv6:hover .featuredlayer6 {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* featured */
 .center {
     background-image: linear-gradient(37deg, #20dae9, #5c50ea);
     height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .sec2h2 {
     text-align: center;
     font-size: 48px;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .sec2 {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .offeritem {
@@ -264,23 +481,23 @@ body {
     border: 1px solid #151516;
     padding: 25px 15px 30px 50px;
     border-radius: 30px;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .offerdiv {
     float: left;
     width: 30%;
     margin: 2% 0;
-    position: relative
+    position: relative;
 }
 
 .item2 {
-    margin: 2% 5%
+    margin: 2% 5%;
 }
 
 p {
     color: #05045b;
-    padding-top: 7px
+    padding-top: 7px;
 }
 
 .a {
@@ -288,75 +505,75 @@ p {
     left: 10px;
     top: 25px;
     font-size: 30px;
-    color: #000
+    color: #000;
 }
 
 /* sec2 */
 
 .sec3 {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .parentsec3 {
     height: 100vh;
     overflow: auto;
     padding-top: 50px;
-    margin-top: 80px
+    margin-top: 80px;
 }
 
 .divchooseus1,
 .divchooseus2 {
     float: left;
-    width: 50%
+    width: 50%;
 }
 
 .divchooseus2 {
-    padding-left: 150px
+    padding-left: 150px;
 }
 
 .sec3title {
-    padding-top: 40px
+    padding-top: 40px;
 }
 
 .iconinfo {
     color: #6c6cd6;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 .sec3h2 {
     text-transform: capitalize;
-    font-size: 40px
+    font-size: 40px;
 }
 
 .sec3hr {
     width: 70px;
     border: 2px solid #6c6cd6;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .sec3p {
     color: #b2b2b4;
-    padding-top: 40px
+    padding-top: 40px;
 }
 
 .sec3listul {
     list-style: none;
-    padding-top: 25px
+    padding-top: 25px;
 }
 
 .sec3listul li {
     margin-bottom: 15px;
-    color: #918e8e
+    color: #918e8e;
 }
 
 .sec3bullet {
     text-align: center;
-    list-style: none
+    list-style: none;
 }
 
 .sec3bullet li.active {
-    background-color: #1b1bd4
+    background-color: #1b1bd4;
 }
 
 .sec3bullet li {
@@ -368,11 +585,11 @@ p {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #aeaeaf
+    background-color: #aeaeaf;
 }
 
 .sec3bullet li:hover {
-    background-color: #1b1bd4
+    background-color: #1b1bd4;
 }
 
 .sec4parent {
@@ -381,7 +598,7 @@ p {
     background-image: url(https://youssif8me.github.io/First-project/image/m.jpg);
     position: relative;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .overlay {
@@ -390,49 +607,49 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .sec4container {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .sec4items {
     padding-top: 150px;
-    overflow: auto
+    overflow: auto;
 }
 
 .sec4item {
     float: left;
     text-align: center;
-    width: 25%
+    width: 25%;
 }
 
 .sec4-item-icon {
     color: #989ef0;
     margin-bottom: 15px;
-    font-size: 40px
+    font-size: 40px;
 }
 
 .sec4-item-text,
 .sec4-item-title {
-    color: #fff
+    color: #fff;
 }
 
 .sec5 {
     padding-top: 120px;
-    text-align: center
+    text-align: center;
 }
 
 .sec5-container {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .sec5-divs {
     overflow: auto;
-    padding: 50px
+    padding: 50px;
 }
 
 .pricimg-div1 {
@@ -443,20 +660,22 @@ p {
     text-align: center;
     border-radius: 30px;
     position: relative;
-    background-image: radial-gradient(circle at 17% 77%, rgba(17, 17, 17, .04) 0, rgba(17, 17, 17, .04) 50%, rgba(197, 197, 197, .04) 50%, rgba(197, 197, 197, .04) 100%), radial-gradient(circle at 26% 17%, rgba(64, 64, 64, .04) 0, rgba(64, 64, 64, .04) 50%, rgba(244, 244, 244, .04) 50%, rgba(244, 244, 244, .04) 100%), radial-gradient(circle at 44% 60%, rgba(177, 177, 177, .04) 0, rgba(177, 177, 177, .04) 50%, rgba(187, 187, 187, .04) 50%, rgba(187, 187, 187, .04) 100%), linear-gradient(19deg, #1c75fa, #22029f)
+    background-image: radial-gradient(circle at 17% 77%, rgba(17, 17, 17, .04) 0, rgba(17, 17, 17, .04) 50%, rgba(197, 197, 197, .04) 50%, rgba(197, 197, 197, .04) 100%), radial-gradient(circle at 26% 17%, rgba(64, 64, 64, .04) 0, rgba(64, 64, 64, .04) 50%, rgba(244, 244, 244, .04) 50%, rgba(244, 244, 244, .04) 100%), radial-gradient(circle at 44% 60%, rgba(177, 177, 177, .04) 0, rgba(177, 177, 177, .04) 50%, rgba(187, 187, 187, .04) 50%, rgba(187, 187, 187, .04) 100%), linear-gradient(19deg, #1c75fa, #22029f);
 }
 
 .sec5-title {
-    font-size: 40px
+    font-size: 40px;
+    text-transform: capitalize;
 }
 
 .div-pric2 {
-    margin: 0 5%
+    margin: 0 5%;
 }
 
 .pricimg-div1-p {
     text-transform: uppercase;
-    color: #000
+    color: #fff;
+    font-size: 24px;
 }
 
 .sec5-div1-month {
@@ -466,22 +685,22 @@ p {
     border: 3px solid #13131f;
     margin: 20px auto;
     padding: 12px 0;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .h3-dollar {
     font-size: 40px;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .sec5-btn,
 .sec5-ul {
     list-style: none;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .sec5-ul li {
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 .sec5-btn {
@@ -496,7 +715,7 @@ p {
     text-decoration: none;
     overflow: hidden;
     background-color: #fff;
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 .sec6 {
@@ -506,7 +725,7 @@ p {
     position: relative;
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 130px
+    margin-top: 130px;
 }
 
 .sec6overlay {
@@ -515,87 +734,77 @@ p {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .sec6container {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .sec6content {
     margin: auto;
     width: 90%;
     height: 100%;
-    overflow: auto
+    overflow: auto;
 }
 
 .sec6item1 {
     width: 50%;
     height: 100%;
-    float: left
+    float: left;
 }
 
 .sec6item1-info {
     text-transform: capitalize;
     padding: 130px 40px 10px 150px;
     position: relative;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 .sec6item1-info img {
     border-radius: 50%;
     position: absolute;
     left: 50px;
-    top: 120px
+    top: 120px;
 }
 
 .sec6p {
     margin: 0 30px 0 50px;
     line-height: 1.4;
     text-transform: capitalize;
-    color: #fff
+    color: #fff;
 }
 
 .sec6item1-info h3 {
     font-size: 32px;
-    color: #fff
+    color: #fff;
 }
 
 .sec6item1-info span {
     color: #1815d1;
-    font-size: 24px
+    font-size: 24px;
 }
 
 .sec7title {
-    padding-top: 120px
+    padding-top: 120px;
 }
 
 .sec7title h2 {
     text-align: center;
     text-transform: capitalize;
-    font-size: 40px
-}
-
-.title {
-    padding-top: 120px
-}
-
-.title h2 {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 40px
+    font-size: 40px;
 }
 
 .sec7container {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .sec7parent {
     overflow: auto;
     height: 100vh;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .card {
@@ -606,7 +815,7 @@ p {
     font-size: 25px;
     font-weight: 700;
     border-radius: 15px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .card::after,
@@ -621,19 +830,19 @@ p {
     font-size: 25px;
     font-weight: 700;
     background-color: #219cb8;
-    transition: all .5s
+    transition: all .5s;
 }
 
 .card::before {
     top: 0;
     right: 0;
-    border-radius: 0 15px 0 100%
+    border-radius: 0 15px 0 100%;
 }
 
 .card::after {
     bottom: 0;
     left: 0;
-    border-radius: 0 100% 0 15px
+    border-radius: 0 100% 0 15px;
 }
 
 .card:hover::before,
@@ -641,38 +850,38 @@ p {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    transition: all .5s
+    transition: all .5s;
 }
 
 .num1 {
-    float: inline-start
+    float: inline-start;
 }
 
 .num2 {
     float: inline-start;
-    margin-left: 175px
+    margin-left: 175px;
 }
 
 .num3 {
-    float: inline-end
+    float: inline-end;
 }
 
 .num1:hover:after {
-    content: "Ui/UX Designer"
+    content: "Ui/UX Designer";
 }
 
 .num2:hover:after {
-    content: "Full stuck"
+    content: "Full stuck";
 }
 
 .num3:hover:after {
-    content: "Marketing"
+    content: "Marketing";
 }
 
 .card img {
     width: 80%;
     border-radius: 50%;
-    margin-left: 20px
+    margin-left: 20px;
 }
 
 .sec7info-title {
@@ -680,33 +889,33 @@ p {
     color: #ccc;
     padding: 12px 0;
     text-align: center;
-    margin-top: -20px
+    margin-top: -20px;
 }
 
 .sec7info-p {
     text-transform: uppercase;
     color: #fff;
     margin-top: -15px;
-    text-align: center
+    text-align: center;
 }
 
 .sec8title {
     margin-top: -190px;
     text-align: center;
     text-transform: capitalize;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .sec8container {
     width: 80%;
-    margin: auto
+    margin: auto;
 }
 
 .sec8parent {
     height: auto;
     margin-top: 50px;
     overflow: auto;
-    height: 500px
+    height: 550px;
 }
 
 .flip-card {
@@ -716,19 +925,19 @@ p {
     perspective: 1000px;
     font-family: sans-serif;
     float: left;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 .text {
     font-size: 48px;
-    color: #fff
+    color: #fff;
 }
 
 .text1 {
     font-size: 1.5em;
     font-weight: bolder;
     text-align: center;
-    color: #ccc
+    color: #ccc;
 }
 
 .text2,
@@ -736,11 +945,11 @@ p {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    color: #ccc
+    color: #ccc;
 }
 
 .text3 {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .flip-card-inner {
@@ -748,8 +957,9 @@ p {
     width: 100%;
     height: 100%;
     text-align: center;
+    margin-top: 30px;
     transform-style: preserve-3d;
-    animation: flip 10s ease-in-out infinite
+    animation: flip 10s ease-in-out infinite;
 }
 
 .flip-card-back,
@@ -764,24 +974,24 @@ p {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border: 1px solid coral;
-    border-radius: 1rem
+    border-radius: 1rem;
 }
 
 .flip-card-front {
-    background-image: radial-gradient(circle at 85% 1%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 96%, transparent 96%, transparent 100%), radial-gradient(circle at 14% 15%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 1%, transparent 1%, transparent 100%), radial-gradient(circle at 60% 90%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 20%, transparent 20%, transparent 100%), radial-gradient(circle at 79% 7%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 78%, transparent 78%, transparent 100%), radial-gradient(circle at 55% 65%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 52%, transparent 52%, transparent 100%), linear-gradient(135deg, #2538de, #0e0588)
+    background-image: radial-gradient(circle at 85% 1%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 96%, transparent 96%, transparent 100%), radial-gradient(circle at 14% 15%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 1%, transparent 1%, transparent 100%), radial-gradient(circle at 60% 90%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 20%, transparent 20%, transparent 100%), radial-gradient(circle at 79% 7%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 78%, transparent 78%, transparent 100%), radial-gradient(circle at 55% 65%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 52%, transparent 52%, transparent 100%), linear-gradient(135deg, #2538de, #0e0588);
 }
 
 .flip-card-back {
     background-image: radial-gradient(circle at 85% 1%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 96%, transparent 96%, transparent 100%), radial-gradient(circle at 14% 15%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 1%, transparent 1%, transparent 100%), radial-gradient(circle at 60% 90%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 20%, transparent 20%, transparent 100%), radial-gradient(circle at 79% 7%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 78%, transparent 78%, transparent 100%), radial-gradient(circle at 55% 65%, hsla(190, 0%, 93%, .05) 0, hsla(190, 0%, 93%, .05) 52%, transparent 52%, transparent 100%), linear-gradient(135deg, #2538de, #60bdf4);
     color: #fff;
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
 }
 
 .flip-card-front img {
     width: 200px;
     height: 200px;
     margin: auto;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .footer {
@@ -789,14 +999,14 @@ p {
     background-color: #1877f2;
     padding: 20px 0;
     margin-top: 100px;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .content-footer {
     margin: auto;
     height: 300px;
     width: 40%;
-    text-align: center
+    text-align: center;
 }
 
 .img-footer,
@@ -805,22 +1015,22 @@ p {
     height: 200px;
     margin: auto;
     border-radius: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .img-footer {
-    height: 30%
+    height: 30%;
 }
 
 .ul-footer {
-    margin-top: 130px
+    margin-top: 130px;
 }
 
 .ul-footer p {
     font-size: 13px;
     text-transform: uppercase;
     color: #c6c6c6;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .wrapper {
@@ -828,7 +1038,7 @@ p {
     list-style: none;
     width: 100%;
     font-family: Poppins, sans-serif;
-    justify-content: center
+    justify-content: center;
 }
 
 .wrapper .icon {
@@ -845,7 +1055,7 @@ p {
     flex-direction: column;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    transition: all .2s cubic-bezier(.68, -.55, .265, 1.55)
+    transition: all .2s cubic-bezier(.68, -.55, .265, 1.55);
 }
 
 .wrapper .tooltip {
@@ -860,7 +1070,7 @@ p {
     opacity: 0;
     pointer-events: none;
     transition: all .3s cubic-bezier(.68, -.55, .265, 1.55);
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .wrapper .tooltip::before {
@@ -872,37 +1082,37 @@ p {
     bottom: -3px;
     left: 50%;
     transform: translate(-50%) rotate(45deg);
-    transition: all .3s cubic-bezier(.68, -.55, .265, 1.55)
+    transition: all .3s cubic-bezier(.68, -.55, .265, 1.55);
 }
 
 .wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
     visibility: visible;
-    pointer-events: auto
+    pointer-events: auto;
 }
 
 .wrapper .icon:hover .tooltip,
 .wrapper .icon:hover span {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .1)
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .1);
 }
 
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-    background: #1877f2
+    background: #1877f2;
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-    background: #1da1f2
+    background: #1da1f2;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-    background: #e4405f
+    background: #e4405f;
 }
 
 @keyframes flip {
